@@ -137,7 +137,9 @@ class Banking(): #Banking class in which the main functions of the code happens
                 print("Thanks for visiting Skibidi bank!")
                 break
 
-bank = Banking() #instance of class, just runs the whole thing
-bank.main()
+if __name__ == "__main__":
+    bank = Banking()  # Create an instance of Banking
+    bank.main()  # Run only if executed directly, not when imported
+
     
     
